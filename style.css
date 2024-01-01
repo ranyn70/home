@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: black
+}
+header h2{
+    color: white;
+    font-weight: bold;
+}
+header ul li{
+    display: inline-block;
+    padding: 0px 30px;
+    list-style: none;
+    
+}
+header ul a{
+    color: azure;
+    text-decoration: none;
+    font-size: 19px;
+   
+
+
+}
+header ul li a:hover{    
+    color: pink;
+     border-bottom: 3px solid pink;
+}
+/* =================== home =============== */
+  .home{
+    width: 100%;
+    height:100vh;
+    
+    background-image:url(backgrounds/pexels-lumn-167684\ \(2\).jpg);
+  
+
+ 
+  }
+   .home h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 80px;
+   }
+   .home h2{ text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+   }
+   .home h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+  .button-group button{
+    background-color:green;
+    border: 2px solid black;
+    color: beige;
+    padding: 12px;
+    cursor: pointer;
+    width: 25%;
+    display: block;
+    margin-top: 8px;
+  }
+  .button-group button:hover{
+    background-color:bisque;
+  }
+  .math{
+    background-image: url(backgrounds/pexels-sebastian-sørensen-1276518.jpg);
+  }
+  .regio{
+    display: block;
+    background-image: url(backgrounds/pexels-sebastian-sørensen-1276518.jpg); 
+  }
+  
+   
+.button-group1 button{
+  display: block;
+  cursor: pointer;
+  border: 2px solid black;
+  margin-top: 8px;
+  padding: 12px;
+  width: 25%;
+  color:black;
+  background-color: blanchedalmond;
+  
+
+}
+.button-group1 button:hover{
+  background-color:chocolate;
+}
+.regio{ 
+  position: relative;
+  left: 35%;
+  
+}
+
+  
+
+
+  
+   
+   
